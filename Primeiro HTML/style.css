@@ -1,0 +1,21 @@
+<!-- Forma de uso do CSS EXTERNO --->
+h2 {
+    color: blueviolet;
+    text-transform: uppercase;
+}
+a {
+    text-decoration-style: wavy; 
+    text-decoration-color: magenta;
+}
+.progresso-html {
+    height: 25px;
+    padding: 5px;
+    background-color: blue; 
+    display: flex;
+}
+
+.progresso-html::before {
+    content: "HTML - 60% de aprendizado";
+    width: 60%;
+    background-color: beige;
+}
